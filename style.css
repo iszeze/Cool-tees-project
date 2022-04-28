@@ -1,0 +1,256 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header img {
+    width: 100%;
+}
+
+header .navbar img {
+    width: 8vw;
+}
+
+header .navbar {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    align-items: center;
+    background-color: white;
+    top: 0vw;
+}
+
+header .icons {
+    margin-left: 74vw;
+}
+
+header .icons img {
+    width: 2vw;
+}
+
+.tees {
+    padding: 0vw 5vw 3vw;
+}
+
+.section-1 h5 {
+    font-size: 2vw;
+    margin-bottom: 2vw;
+    padding: 5vw 5vw 0vw;
+}
+
+.tees .item-img {
+    position: relative;
+}
+
+.tees .like img {
+    position: absolute;
+    top: 1vw;
+    left: 15vw;
+    width: 2.5vw;
+}
+
+.tees img {
+    width: 18vw;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    overflow: hidden;
+    overflow-x: auto;  
+}
+
+.item-details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1vw;
+}
+
+.item-details button {
+
+    background-color: #59AF0F;
+    color: white;
+    border: none;
+    width: 8vw;
+    height: 2.5vw;
+    border-radius: 0.5vw;
+    font-size: 1.3vw;
+
+}
+.grid-1 {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    overflow: hidden;
+    overflow-x: auto;  
+}
+
+footer {
+    text-align: center;
+}
+
+footer hr {
+    color: black;
+}
+
+footer p.footer-bottom {
+    padding: 2vw 0vw 2vw;
+    color: #AEAEAE;
+    font-size: 1.3vw;
+}
+
+.container {
+    position: relative;
+}
+
+.sign {
+    position: absolute;
+    background-color: white;
+    z-index: 1;
+    top: 10vw;
+    left: 35vw;
+    text-align: center;
+    padding: 3vw;
+    position: fixed;
+}
+
+.sign-up {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.check {
+    display: flex;
+    align-items: center;
+    margin-top: 1vw;
+}
+
+.check p {
+    padding: 0vw 1vw;
+}
+
+.sign-up input {
+    padding: 1vw;
+    border-radius: 2vw;
+    border: 1px solid grey;
+    margin-top: 1vw;
+}
+
+.check input {
+    margin-top: 0vw;
+}
+.sign-up button {
+    margin: 1vw 1vw;
+    padding: 0.6vw 2vw;
+    border-radius: 1.5vw;
+    border: none;
+    background-color: #461DE6;
+    color: white;
+}
+
+.sign-up a {
+    padding: 0vw 1vw;
+}
+.thank-you {
+    padding: 5vw;
+    background-color: #461DE6;
+    margin-top: 8vw;
+    color: white;
+    text-align: center;
+}
+.thanks {
+    text-align: center;
+    padding: 2vw;
+}
+.thanks button {
+    padding: 0.9vw;
+    margin-top: 2vw;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 2vw;
+}
+.order {
+    padding: 4vw 4vw;
+}
+p.check-item {
+    padding-top: 2vw;
+}
+#table-name  p {
+    margin-right: 8vw;
+}
+.table {
+    display: flex;
+    align-items: center;
+    margin-top: 2vw;
+
+}
+.table button {
+    margin-left: 4vw;
+    border-radius: 2vw;
+    padding: 0.5vw 2vw;
+}
+.table p {
+    margin-left: 4vw;
+}
+
+hr {
+    width: 50vw;
+    margin: 2vw 2vw;
+}
+.shipping {
+    padding: 3vw;
+}
+.shipping input {
+    border-radius: 2vw;
+    width: 32vw;
+    padding: 0.5vw 3vw;
+    border: 1px solid #D8D8D8;
+    margin-top: 1vw;
+}
+.submit button{
+    background-color: #461DE6;
+    border: none;
+    border-radius: 3vw;
+    width: 20vw;
+    padding: 0.5vw;
+    color: white;
+    margin-left: 3vw;
+}
+td p {
+    padding: 0vw 3.5vw 1vw;
+    font-weight: bold;
+}
+.hr td  {
+    border-top: 1px solid black;
+    padding: 1vw 0vw;
+}
+td img {
+    border-radius: 50%;
+    height: 9vw;
+    width: 9vw;
+    border: 1px solid black;
+
+}
+.span-class {
+    color: grey;
+}
+table {
+    margin-top: 10vw;
+
+}
+.total-cost {
+    display: flex;
+    justify-content: space-evenly
+}
+.continue button {
+    background-color: white;
+    border-radius: 4vw;
+    padding: 0.5vw;
+}
+#next {
+    background-color: blue;
+    color: white;
+    border: none;
+}

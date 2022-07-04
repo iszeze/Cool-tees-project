@@ -1,7 +1,7 @@
-# Forum App in React & Redux + Django
+# Cool Tees in React & Redux + Django
 
 ```
-Forum App, with a frontend built in React & Redux and a backend built in Django API.
+Cool Tees, with a frontend built in React & Redux and a backend built in Django API.
 ```
 
 ## Live Demo
